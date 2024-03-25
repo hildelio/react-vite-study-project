@@ -1,0 +1,41 @@
+.header-content {
+  align-items: center;
+  background: linear-gradient(135deg, #2c3e50, #3498db);
+  color: #ecf0f1; 
+  display: flex;
+  justify-content: space-between;
+  padding: 1.6em 50px; /* Adicionado padding nas laterais */
+  width: calc(100% - 100px); /* Calcula a largura subtraindo o padding das laterais */
+  position: fixed;
+  top: 0;
+  left: 50%; /* Move o Header para a borda esquerda */
+  transform: translateX(-50%); /* Centraliza o Header horizontalmente */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Adicionado para garantir que o Header esteja acima de outros elementos */
+}
+
+.avatar-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 50px;
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.greeting {
+  font-size: 0.9em;
+  font-weight: 500;
+  margin-top: 0.4em;
+}
+
+.logo {
+  height: 80px;
+  margin-right: 50px;
+  width: 80px;
+}
