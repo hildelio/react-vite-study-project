@@ -1,10 +1,11 @@
+import { ComponentProp } from "../types/ComponentProps";
 import "../css/Header.css"
 
-function Header() {
+function Header({className}: ComponentProp) {
   const firstName = 'Zé';
   const lastName = 'Pequeno';
   return (
-    <header className="header-content">
+    <header className={`header-content ${className}`}>
       <section className="avatar-content">
         <img className="avatar" src="https://img.freepik.com/psd-gratuitas/ilustracao-3d-de-avatar-ou-perfil-humano_23-2150671116.jpg?size=626&ext=jpg&ga=GA1.1.1741435561.1709756962&semt=sph" alt="avatar"/>
         <p className="greeting">

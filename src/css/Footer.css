@@ -1,0 +1,19 @@
+.footer-content {
+  align-items: center;
+  background: linear-gradient(135deg, #2c3e50, #3498db);
+  color: #ecf0f1; 
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 1.6em 0;
+  width: 100vw;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.texto-complementar {
+  margin-left: 50px;
+}
+
+.copyrights {
+  margin-right: 50px;
+}
